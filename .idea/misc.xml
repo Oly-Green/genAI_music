@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="genAI_music" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="genAI_music" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="genMIDI" project-jdk-type="Python SDK" />
 </project>
