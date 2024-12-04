@@ -20,8 +20,7 @@ class SelfAttend(nn.Module):
         key = self.K(x)
         value = self.V(x)
 
-        with torch.amp.autocast('cuda' if torch.cuda.is_available() else 'cpu'):
-            attention = nn.functional.scaled_dot_product_attention(query, key, value)
+        attention = nn.functional.scaled_dot_product_attention(query, key, value)
 
         # d_k = query.size(-1)
 
@@ -32,6 +31,6 @@ class SelfAttend(nn.Module):
 
         # del scores, attention_weights
 
-        out = self.output(attention.float())
+        out = self.output(attention)
 
         return out.squeeze(1)

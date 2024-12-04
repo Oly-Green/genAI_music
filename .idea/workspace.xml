@@ -5,12 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f42ed2ba-34d1-4ab6-aa92-6a053a77b5d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/helpers/MusicTensor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/genAI_music.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/genAI_music.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jupyter-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/MidiSegmentedDataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/SegmentedMusicTensor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/SegmentedTrainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelTest3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainSegmentedModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/MusicTensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/MusicTensor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/SelfAttention.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/SelfAttention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelClasses/Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelClasses/Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelTest2.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelTest2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/controlMidi.p" beforeDir="false" afterPath="$PROJECT_DIR$/models/controlMidi.p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_0/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_0/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_0/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_0/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_1/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_1/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_1/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_1/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_10/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_10/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_10/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_10/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_2/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_2/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_2/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_2/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_20/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_20/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_20/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_20/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_3/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_3/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_3/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_3/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_30/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_30/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_30/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_30/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_4/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_4/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_4/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_4/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_40/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_40/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_40/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_40/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_5/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_5/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_5/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_5/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_50/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_50/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_50/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_50/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_6/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_6/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_6/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_6/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_60/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_60/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_60/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_60/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_7/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_7/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_7/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_7/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_70/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_70/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_70/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_70/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_8/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_8/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_8/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_8/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_80/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_80/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_80/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_80/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_9/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_9/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_9/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_9/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_90/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_90/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_90/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_90/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_99/Discriminator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_99/Discriminator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/epoch_99/Generator.model" beforeDir="false" afterPath="$PROJECT_DIR$/models/epoch_99/Generator.model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/100E_20L" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/100E_20L" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +74,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.conda/envs/genMIDI/Lib/site-packages/torch/nn/modules/module.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -36,28 +86,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Doctests in linear.executor": "Debug",
-    "Python.genGAN.executor": "Run",
-    "Python.genNN.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.modelTest.executor": "Run",
-    "Python.modelTest2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/olive/Documents/NortheasternDocuments/2024Fall/Machine Learning and Data Mining 2/Gen AI Music/genAI_music",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Doctests in linear.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Generator.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.MidiSegmentedDataset.executor&quot;: &quot;Run&quot;,
+    &quot;Python.genGAN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.genNN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modelTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modelTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modelTest3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/olive/Documents/NortheasternDocuments/2024Fall/Machine Learning and Data Mining 2/Gen AI Music/genAI_music/helpers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\olive\Documents\NortheasternDocuments\2024Fall\Machine Learning and Data Mining 2\Gen AI Music\genAI_music\helpers" />
       <recent name="C:\Users\olive\Documents\NortheasternDocuments\2024Fall\Machine Learning and Data Mining 2\Gen AI Music\genAI_music" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -92,6 +148,15 @@
       <workItem from="1730995060863" duration="243000" />
       <workItem from="1731005859040" duration="2735000" />
       <workItem from="1732042385067" duration="9311000" />
+      <workItem from="1732137438805" duration="8724000" />
+      <workItem from="1732146238248" duration="7625000" />
+      <workItem from="1732214110724" duration="3838000" />
+      <workItem from="1732217988635" duration="10494000" />
+      <workItem from="1732231082108" duration="5254000" />
+      <workItem from="1732304347780" duration="1924000" />
+      <workItem from="1732308299954" duration="10317000" />
+      <workItem from="1733254412606" duration="371000" />
+      <workItem from="1733258415558" duration="1785000" />
     </task>
     <servers />
   </component>
@@ -107,9 +172,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/genAI_music$genGAN.coverage" NAME="genGAN Coverage Results" MODIFIED="1730932630336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/genAI_music$MidiSegmentedDataset.coverage" NAME="MidiSegmentedDataset Coverage Results" MODIFIED="1732225152038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/helpers" />
+    <SUITE FILE_PATH="coverage/genAI_music$modelTest3.coverage" NAME="modelTest3 Coverage Results" MODIFIED="1733258892339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/genAI_music$playTest.coverage" NAME="playTest Coverage Results" MODIFIED="1732226375393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/genAI_music$genNN.coverage" NAME="genNN Coverage Results" MODIFIED="1730926914595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/genAI_music$Generator.coverage" NAME="Generator Coverage Results" MODIFIED="1732316446552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modelClasses" />
     <SUITE FILE_PATH="coverage/genAI_music$modelTest.coverage" NAME="modelTest Coverage Results" MODIFIED="1732042862502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/genAI_music$modelTest2.coverage" NAME="modelTest2 Coverage Results" MODIFIED="1732051498859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/genAI_music$modelTest2.coverage" NAME="modelTest2 Coverage Results" MODIFIED="1732144933201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/genAI_music$main.coverage" NAME="main Coverage Results" MODIFIED="1727807734260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

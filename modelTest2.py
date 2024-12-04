@@ -7,11 +7,11 @@ from modelClasses.Generator import Generator
 
 torch.cuda.empty_cache()
 
-EPOCHS = 100
-LIMIT = 20
+EPOCHS = 10
+LIMIT = 2
 BATCH = 1
 PADDING = -1
-LOGGING = 10
+LOGGING = 1
 GSTEP = 1
 TRAINING = True
 TEST_ON = EPOCHS - 1

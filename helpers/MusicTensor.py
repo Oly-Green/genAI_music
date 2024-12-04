@@ -97,11 +97,3 @@ class MusicTensor():
     def play(self, mid):
         for msg in mid.play():
             self.port.send(msg)
-
-
-# MT = MusicTensor("./maestro-v3.0.0/2013/ORIG-MIDI_01_7_6_13_Group__MID--AUDIO_03_R1_2013_wav--2.midi")
-# # MT.testPlay()
-# MT.toTensors()
-# mid = MT.toMidi()
-# MT.play(mid)
-# MT.closePort()
